@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/* header start */
+
+.header {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav {
+  padding: 20px 0;
+  position: relative;
+  z-index: 999;
+}
+
+.header__nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__logo {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__link {
+  text-transform: uppercase;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.header img {
+  position: absolute;
+}
+
+.fantasy {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.cloud_1 {
+  top: 15%;
+  left: 5%;
+  mix-blend-mode: overlay;
+}
+
+.cloud_2 {
+  top: 15%;
+  left: 70%;
+  mix-blend-mode: overlay;
+}
+
+.cloud_3 {
+  top: 15%;
+  left: 45%;
+  mix-blend-mode: overlay;
+}
+
+.boat {
+  top: 80%;
+  left: 65%;
+}
+
+.header__content {
+  position: relative;
+  z-index: 999;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 80px;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px #fff, 0 0 5px #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* header end */
+
+/* parallax start */
+
+.parallax {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.parallax__title {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.parallax__box {
+  position: relative;
+  flex-grow: 1;
+}
+
+.parallax__box img {
+  position: absolute;
+}
+
+.parallax__banner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.parallax__img {
+  top: 15%;
+  left: 15%;
+}
+
+.parallax__img2 {
+  top: 15%;
+  left: 80%;
+}
+
+/* parallax end */
+
+/* timer start */
+
+.timer {
+  padding: 50px 0;
+}
+
+.timer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.timer__item {
+  width: 250px;
+  height: 250px;
+  background: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.timer__num {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* timer end */
